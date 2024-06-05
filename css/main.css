@@ -32,4 +32,84 @@ img {
 
 a {
   text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat";
+  font-weight: 700px;
+  font-size: 14px;
+  text-align: center;
+}
+
+body {
+  font-family: "Montserrat";
+  font-weight: 700px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  width: 280px;
+  height: 40px;
+  background-color: #FF4E50;
+  border: none;
+  border-radius: 25px;
+  padding: 13px 38px;
+  font-size: 13px;
+  color: #FFF;
+}
+
+.other-button {
+  width: 280px;
+  height: 40px;
+  border: 3px solid #FF4E50;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #FF4E50;
+}
+
+.header {
+  background-image: url(/images/bg-phone.jpg);
+  background-repeat: no-repeat;
+  max-width: 480px;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 140px;
+}
+
+.nav-list {
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  margin-bottom: 115px;
+}
+
+.nav-list__link {
+  font-size: 13px;
+  color: #FFF;
+  padding: 11px 5px;
+}
+
+.nav-list__link:hover {
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-radius: 17px;
+}
+
+.logo {
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  text-transform: center;
+  color: inherit;
 }/*# sourceMappingURL=main.css.map */

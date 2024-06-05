@@ -1,0 +1,19 @@
+.button {
+    width: 280px;
+    height: 40px;
+    background-color:#FF4E50 ;
+    border: none;
+    border-radius: 25px;
+    padding: 13px 38px;
+    font-size: 13px;
+    color: $header-text-color;
+}
+.other-button {
+    width: 280px;
+    height: 40px;
+    border: 3px solid #FF4E50;
+    border-radius: 25px;
+  background-color: #fff;
+  color: #FF4E50;
+
+}
